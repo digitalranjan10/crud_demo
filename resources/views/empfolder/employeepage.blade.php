@@ -22,7 +22,7 @@
 <div class="card">
   
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Employee Details</h5>
     <form method="POST" action="{{action('Employeecontroller@store')}}">
         
         {{ csrf_field() }}
